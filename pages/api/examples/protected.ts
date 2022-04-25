@@ -11,7 +11,7 @@ export default async function protectedHandler(
   if (session) {
     return res.send({
       content:
-        "This is protected content. You can access this content because you are signed in.",
+        `Hi ${session?.user?.name}, This is protected content. You can access this content because you are signed in.`,
     })
   }
 

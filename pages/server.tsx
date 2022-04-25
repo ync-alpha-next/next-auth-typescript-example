@@ -15,7 +15,7 @@ export default function Page() {
     <Layout>
       <h1>Server Side Rendering</h1>
       <p>
-        This page uses the universal <strong>getSession()</strong> method in{" "}
+      Hi {session?.user?.name},  This page uses the universal <strong>getSession()</strong> method in{" "}
         <strong>getServerSideProps()</strong>.
       </p>
       <p>

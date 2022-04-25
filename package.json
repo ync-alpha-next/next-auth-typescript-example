@@ -10,7 +10,7 @@
   "homepage": "http://next-auth-typescript-example.now.sh",
   "main": "",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3004",
     "build": "next build",
     "start": "next start",
     "types": "tsc --noEmit"
